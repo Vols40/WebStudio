@@ -4,97 +4,128 @@
     <meta charset="UTF-8" />
     <title>WebStudio</title>
     <body>
-      <ul>
-        <li>WebStudio</li>
-        <li>Studio</li>
-        <li>Portofolio</li>
-        <li>Contacts</li>
-        <li><a href="Email:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+1 212-772-4150">+1 212-772-4150</a></li>
-      </ul>
-      <img src="./images/bg-2-x.png" alt="Layout" />
-      <h1>Efective solution for your business</h1>
-      <button>Request our service</button>
+      <header>
+        <main>
+        <h2>WebStudio</h2>
+        <nav>
+          <ul>
+            <li><a href="./index.html">Studio</a></li>
+            <li><a href="./Portfolio.html">Portfolio</a></li>
+            <li><a href="./Contacts.html">Contacts</a></li>
+            <li><a href="mailto::info@devstudio.com">info@devstudio.com</a></li>
+            <li><a href="tel:+1 212-772-4150">+1 212-772-4150</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- Banner Section -->
+      <section>
+        <h1>Efective solution for your business</h1>
+        <button>Request our service</button>
+      </section>
+      <!-- Description Section -->
+      <section>
+        <div>
+          <h3>ATTENTION TO DETAILS</h3>
+          <p>
+            We go into all the details and processes of your business to develop
+            a customized solution.
+          </p>
+        </div>
+        <div>
+          <h3>PUNCTUALITY</h3>
+          <p>
+            We go into all the details and processes of your business to develop
+            a customized solution.
+          </p>
+        </div>
+        <div>
+          <h3>PLANNING</h3>
+          <p>
+            You will be able to observe and participate in every phase of
+            solution development and implementation.
+          </p>
+        </div>
+        <div>
+          <h3>MODERN TECHNOLOGIES</h3>
+          <p>
+            We go into all the details and processes of your business to develop
+            a customized solution.
+          </p>
+        </div>
+        <!-- What we do section -->
+        <div>
+          <h2>What we do</h2>
+          <img src="images/img 1.jpg" alt="Image1" />
+          <img src="images/img  2.jpg" alt="Image2" />
+          <img src="images/img 3.jpg" alt="Image3" />
+        </div>
+      </section>
+      <!-- our team section-->
+      <h2>Our Team</h2>
+      <section class="team">
       <div>
-        <h3>ATTENTION TO DETAILS</h3>
-        <p>
-          We go into all the details and processes of your business to develop a
-          customized solution.
-        </p>
-      </div>
-      <div>
-        <h3>PUNCTUALITY</h3>
-        <p>
-          We go into all the details and processes of your business to develop a
-          customized solution.
-        </p>
-      </div>
-      <div>
-        <h3>MODERN TECHNOLOGIES</h3>
-        <p>
-          We go into all the details and processes of your business to develop a
-          customized solution.
-        </p>
-      </div>
-      <div>
-        <h2>What we do</h2>
-        <img src="images/img1.png" alt="Image1" />
-        <img src="images/img2.png" alt="Image2" />
-        <img src="images/img3.png" alt="Image3" />
-      </div>
-      <div>
-        <h2>Our Team</h2>
-        <img src="images/section-bg.png" alt="background" />
-        <img src="Our Team/images/card-bg.png" alt="picture background" />
         <img
-          src="Our Team/images/img1.jpg"
+          src="./images/imag1.jpg"
           alt="image1"
           width="270"
           height="260"
         />
-        <span>Christopher Walker</span>
-        <span>Product Designer</span>
-        <img src="Our Team/images/card-bg.png" alt="picture background" />
+        <h3>Christopher Walker</h3>
+        <p>Product Designer</p>
+        </div>
+        <div>
         <img
-          src="Our Team/images/img2.jpg"
+          src="./images/imag2.jpg"
           alt="image2"
           width="270"
           height="260"
         />
-        <span>Kylie Evans</span>
-        <span>Frontend Developer</span>
-        <img src="Our Team/images/card-bg.png" alt="picture background" />
+        <h3>Kylie Evans</h3>
+        <p>Frontend Developer</p>
+      </div>
+      <div>
         <img
-          src="Our Team/images/img3.jpg"
+          src="./images/imag3.jpg"
           alt="image3"
           width="270"
           height="260"
         />
-        <span>Ryan Harris</span>
-        <span>Marketing</span>
-        <img src="Our Team/images/card-bg.png" alt="picture background" />
+        <h3>Ryan Harris</h3>
+        <p>Marketing</p>
+      </div>
+      <div>
         <img
-          src="Our Team/images/img4.jpg"
+          src="./images/imag4.jpg"
           alt="image4"
           width="270"
           height="260"
         />
-        <span>Tyler Moore</span>
-        <span>UI Designer</span>
+        <h3>Tyler Moore</h3>
+        <p>UI Designer</p>
       </div>
-      <footer>
-        <img
-          src="/images/footer-bg.png"
-          alt="footer background"
-          width="1600"
-          height="251"
-          top="2097"
-        />
+    </section>
+    </main>
+      <footer class="footer">
         <h2>WebStudio</h2>
-        <p>695 Park Ave, NY 10065,USA</p>
-        <a href="">info@devstudio.com</a>
+        <address>Park Ave, NY 10065,USA</address>
+        <a href="mailto:">info@devstudio.com</a><br>
         <a href="tel:+12127724150">+12127724150</a>
       </footer>
     </body>
   </head>
 </html>
+
+<style>
+  .team{
+    display: flex;
+    background-color: azure;
+    padding: 15px;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .footer{
+    background-color:#2F303A;
+    padding: 20px;
+  }
+</style>
